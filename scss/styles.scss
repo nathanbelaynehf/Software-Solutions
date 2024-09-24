@@ -1,8 +1,30 @@
 .header {
-    background: url('../images/header-background.jpg') center center no-repeat;
-    background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+  url('../images/header-background.jpg') left center no-repeat;
+background-size: cover;
     height: 100vh;
   }
   .int::placeholder {
     color: white; /* Change placeholder text color to white */
+}
+.play:hover i {
+  color: #fe6b2a !important;; /* Change color to white on hover */
+}
+.project-modals .modal-dialog{
+  max-width: 1150px;
+  margin-top:100px;
+}
+.video-modal .modal-dialog{
+  max-width: 1350px;
+  margin-top:100px;
+}
+@media (max-width: 992px) {
+  .header {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
+      url('../images/header-background.jpg') center center no-repeat;
+  }
+}
+.ms-c{
+  margin-left: 110px;
 }
